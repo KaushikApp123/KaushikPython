@@ -1,0 +1,6 @@
+allCountryStamps = int(input())
+countries = set()
+for i in range(allCountryStamps):
+    countries.add(input())
+answer = len(countries)
+print(answer)
